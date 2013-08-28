@@ -12,3 +12,5 @@
 * Always tag releases (if not handled by deployment)
 * Use semantic versioning if versioning is needed
 * Use feature switches if it makes sense
+* add test execution before anything will be deployed
+* don’t give developers _sudo_ access – when you have a hammer, everything is a nail!

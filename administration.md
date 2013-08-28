@@ -8,9 +8,9 @@
 * Automatic incremental backups at least once a day
 * Automatic full backups at least once a week
 * Never allow `SSH` access via password
+* Never allow `SSH` access for user root
 * Close all ports accept required ones (e.g. 22, 80 and 443)
 * Use passwords with at least 30 characters
-* No direct `root` access
 * Set up a `deploy` user
 * Enable automatic security updates
 * Set up availability checks using [Server Density](http://www.serverdensity.com),
@@ -20,3 +20,4 @@
 * Freely add logging/monitoring/log checks
 * Every server should be accessible by at least two people/organisations
 * Use an appropriate log level, don't clutter the logs with unnecessary data
+* use a separate partition for /var to avoid that the logs are full fill your root partition
